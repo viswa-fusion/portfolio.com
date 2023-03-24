@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="p.css"/>
+</head>
+<body>
+    <nav class="nav">
+        <logo class="logo">portfolio</logo>
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <div class="menu">
+            <a class="first" href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+    <section class="section01" id="home">
+        <div class="subcont">
+        <h1>Hello,it's me <br><span> VISWA</span></h1>
+        <h2>and i'm a java devoloper</h2>
+        <div class="social-media">
+            <a href="https://twitter.com/viswa_52001?t=tHOM0ETorIGPRZqvULiFKg&s=08"><i class='bx bxl-twitter'></i></a>
+            <a href="https://www.linkedin.com/in/viswa-panneer-7889b7158"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://www.instagram.com/_master_mad/"><i class='bx bxl-instagram-alt'></i></a>
+        </div>
+        <button class="btn"><a href="viswa-resume.pdf" download >Download CV</a></button>
+        </div>
+        <img src="image/profile.png" draggable="false"/>
+    </section>
+    <section class="section02" id="about">
+        <img src="image/profile.png" draggable="false"/>
+        <div>
+        <h2 class="Acont">About <span>Me</span></h2>
+        <h3>Java Developer!</h3>
+        <p>My name is Viswa, and I am a Java developer with a strong desire to become a full-stack developer. 
+           As a Java developer, I have gained expertise in developing robust and scalable back-end applications using Java and related frameworks.
+           However, I believe that in order to create truly great applications, 
+           it is important to have a deep understanding of both the front-end and back-end development processes.<br><br>
+
+         <span class="readmore">That is why I have set my sights on becoming a full-stack developer,
+           so that I can bring my skills in both front-end and back-end development to the table. 
+           I have already begun working on expanding my knowledge in areas such as HTML, CSS, JavaScript, and 
+           other front-end technologies, and I am eager to continue learning and growing in this area.<br><br>
+            
+            My ultimate aim is to become a full-stack developer who can create end-to-end solutions that meet the needs of my clients. 
+            I believe that my dedication, hard work, and passion for technology will help me achieve this goal, 
+            and I am excited about the possibilities that lie ahead.</span></p>
+        <button onclick="readmore()" class="btn" id="b1">Read more</button>
+        <button onclick="readless()" class="btn" id="b2" style="display:none;">Read less</button>
+    </div>
+    </section>
+    <section class="section03" id="skills">
+        <center>
+            <h1>My <span>skills</span></h1>
+        </center>
+     <div class="skill-cont">
+        <div class="left column">
+            <h2 style="padding-bottom:1rem;">My Creative skilles & expriences.</h2>
+            <div class="scroll">
+            <p align="justify">As a creative professional, I have honed my skills in a variety of areas, including Core Java, HTML, CSS, JavaScript, PHP, and MySQL. Throughout my career, I have had the opportunity to work on a wide range of projects, from developing robust back-end applications using Core Java and PHP, to creating engaging and responsive front-end designs with HTML, CSS, and JavaScript.<br><br>
+
+            One of my greatest strengths is my ability to understand and work collaboratively with clients to identify their unique needs and goals. I am skilled at translating client requirements into effective and innovative solutions that meet their objectives, while also adhering to industry best practices and standards.<br><br>
+                
+            <span class="hide">In addition to my technical skills, I am a highly creative individual with a strong sense of visual aesthetics. I believe that this skill helps me to bring a unique perspective to every project that I work on, resulting in innovative and engaging designs that capture the attention of target audiences.<br><br>
+                
+            I am constantly seeking new challenges and opportunities to expand my skillset, and I am committed to staying up-to-date with the latest trends and technologies in the industry. Whether it's developing complex databases with MySQL, creating visually stunning and user-friendly websites with HTML, CSS, and JavaScript, or crafting effective back-end solutions with Core Java and PHP, I am confident in my ability to deliver outstanding results that exceed my clients' expectations.<br><br>
+                
+            Thank you for taking the time to learn more about my creative skills and experience. I look forward to the opportunity to work with you and help bring your vision to life.</span></p>
+        <button onclick="readme()" class="btn" id="b3">Read more</button>
+        </div></div>
+
+        <div class="right column">
+            <div class="bars">
+                <div class="info">
+                    <span>CORE-JAVA</span>
+                    <span>80%</span>
+                </div>
+                <div class="line corejava"></div>
+            </div>
+
+            <div class="bars">
+                <div class="info">
+                    <span>HTML</span>
+                    <span>90%</span>
+                </div>
+                <div class="line html"></div>
+            </div>
+
+            <div class="bars">
+                <div class="info">
+                    <span>CSS</span>
+                    <span>60%</span>
+                </div>
+                <div class="line css"></div>
+            </div>
+
+            <div class="bars">
+                <div class="info">
+                    <span>JAVASCRIPT</span>
+                    <span>70%</span>
+                </div>
+                <div class="line javascript"></div>
+            </div>
+
+            <div class="bars">
+                <div class="info">
+                    <span>PHP</span>
+                    <span>60%</span>
+                </div>
+                <div class="line php"></div>
+            </div>
+
+            <div class="bars">
+                <div class="info">
+                    <span>MySQL</span>
+                    <span>50%</span>
+                </div>
+                <div class="line mysql"></div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section class="section04" id="portfolio">
+        <center><h2>Latest <span>Project's</span></h2>
+        <div class="project-cont">
+            <div class="left box">
+                <img src="image/project1.png"/>
+                <div class="layer">
+                    <h4>web design</h4>
+                    <p>for agriculture students learning purpose.</p>
+                    <a href=#><i class='bx bx-link' ></i></a>
+                </div>
+            </div>
+            <div class="right box">
+                <img src="image/project2.png"/>
+                <div class="layer">
+                    <h4>android app</h4>
+                    <p>for train ticket resevation.</p>
+                    <a href="app.zip" download><i class='bx bx-link' ></i></a>
+                </div>
+            </div>
+        </div></center>
+    </section>
+
+    <section class="section05" id="contact">
+        <center><h2>Contact <span>Me!</span></h2>
+        
+        <form action="#">
+            <div class="in-box">
+                <input type="text" placeholder="Full Name"/>
+                <input type="email" placeholder="Email Address"/>
+            </div>
+            <div class="in-box">
+                <input  class="ph" type="number" placeholder="Mobile Number"/>
+                <input type="text" placeholder="Email Subject"/>
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn"/>
+        </form></center>
+    </section>
+
+    <footer class="footer">
+        <div class="foot-text">
+            <p>Copyright &copy; 2023 by Viswa | All Rights Reserved.</p>
+        </div>
+        <div class="foot-icon">
+            <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+    
+    let sections=document.querySelectorAll('section');
+    let navLinks=document.querySelectorAll('.menu a');
+
+    window.onscroll=() =>{
+        sections.forEach(sec =>{
+           let top=window.scrollY;
+           let godown=sec.offsetTop-150;
+           let height=sec.offsetHeight;
+           let id=sec.getAttribute('id');
+           
+           if(top >= godown && top< godown+height){
+            nav.forEach(links =>{
+                links.classList.remove('first');
+                document.querySelector('.menu a[href*='+id+']').classList.add('first');
+            });
+           };
+        });
+    };
+    function readmore(){
+        document.querySelector('.readmore').style.display='block';
+        document.querySelector('#b1').style.display='none';
+        document.querySelector('#b2').style.display='block';
+    }
+    function readless(){
+        document.querySelector('.readmore').style.display='none';
+        document.querySelector('#b1').style.display='block';
+        document.querySelector('#b2').style.display='none';
+    }
+    function readme(){
+        document.querySelector('.hide').style.display='block';
+        document.querySelector('#b3').style.display='none';
+    }
+
+    let menuIcon=document.querySelector('#menu-icon');
+    let navbar=document.querySelector('.menu');
+
+    menuIcon.onclick = () =>{
+        menuIcon.classList.toggle('bx-x');
+        navbar.classList.toggle('first');
+    };
+    </script>
+</body>
+</html>
