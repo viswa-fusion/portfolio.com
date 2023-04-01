@@ -86,7 +86,6 @@ section{
 }
 .subcont{
     padding: 7rem;
-    width:45%;
 }
 .section01 img{
     animation:floatImage 4s ease-in-out infinite;
@@ -394,6 +393,9 @@ section{
     padding: 0 4rem;
     display: flex;
 }
+.subcont{
+    width: 45%;
+}
 .scroll{
     height: 63vh;
     top: 0;
@@ -422,12 +424,18 @@ section{
     .footer{
         padding:2rem 3%;
     }
+    
 }
 
 @media (max-width: 768px){
     #menu-icon{
         display:block;
         float: right;
+    }
+    .subcont{
+        width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
     .menu{
         position:absolute;
