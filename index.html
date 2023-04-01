@@ -25,7 +25,9 @@
     <section class="section01" id="home">
         <div class="subcont">
         <h1>Hello,it's me <br><h3> VISWA</h3></h1>
-        <h2>and i'm a <span>java devoloper</span></h2>
+        <h2>and i'm a <span class="changeable-text"></span></h2>
+        <h4>My technical proficiency in HTML, CSS, JavaScript, PHP, MySQL, and Java,
+             as well as i'am able to create an engaging and functional websites.</h4>
         <div class="social-media">
             <a target="_blank" href="https://twitter.com/viswa_52001?t=tHOM0ETorIGPRZqvULiFKg&s=08"><i class='bx bxl-twitter'></i></a>
             <a target="_blank" href="https://www.linkedin.com/in/viswa-panneer-7889b7158"><i class='bx bxl-linkedin'></i></a>
@@ -137,7 +139,7 @@
                 <div class="layer">
                     <h4>web design</h4>
                     <p>for agriculture students learning purpose.</p>
-                    <a href=#><i class='bx bx-link' ></i></a>
+                    <a href="https://github.com/viswa-fusion/agritoy.com.git" target="_blank"><i class='bx bx-link' ></i></a>
                 </div>
             </div>
             <div class="right box">
@@ -145,7 +147,7 @@
                 <div class="layer">
                     <h4>android app</h4>
                     <p>for train ticket resevation.</p>
-                    <a href="app.zip" download><i class='bx bx-link' ></i></a>
+                    <a href="app.zip" target="_self" download><i class='bx bx-link' ></i></a>
                 </div>
             </div>
         </div></center>
@@ -176,7 +178,8 @@
             <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
         </div>
     </footer>
-
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script type="text/javascript">
     
     let sections=document.querySelectorAll('section');
@@ -219,6 +222,28 @@
         menuIcon.classList.toggle('bx-x');
         navbar.classList.toggle('first');
     };
+
+    ScrollReveal({
+        reset:true,
+        distance: '70px',
+        duration: 2000,
+        delay:200
+    });
+
+    ScrollReveal().reveal('.subcont,.section02 h2,.section03 h1,.section05 h2',{origin:'top'});
+    ScrollReveal().reveal('.section01 img,.section03 p',{origin:'bottom'});
+    ScrollReveal().reveal('.section01 h3,.section02 img,.section03 h2,.section03 .info span:last-child',{origin:'left'});
+    ScrollReveal().reveal('',{origin:'right'});
+
+    const typed=new Typed('.changeable-text',{
+        strings:['Java Developer','Web Deleloper','Android Developer'],
+        typeSpeed: 100,
+        backSpeed: 100,
+        backDelay: 1000,
+        loop: true
+    });
     </script>
+    
+    
 </body>
 </html>
