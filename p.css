@@ -22,6 +22,9 @@
     /* rgb(63 255 51) 
     #0ef*/
 }
+.crmForm{
+    display: inline-block;
+}
 html{
     font-size: 62.5%;
     overflow-x: hidden;
