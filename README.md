@@ -9,7 +9,7 @@ Passenger-Table
 ![passengerTable](photos/passenger-table.png)
 
 Driver-Table
-![driverTable](photos/Driver-table.png)
+![driverTable](photos/driver-table.png)
 
 Aaadhaar-Table
 ![aadhaarTable](photos/aadhaar-table.png)
